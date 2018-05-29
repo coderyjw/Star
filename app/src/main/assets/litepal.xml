@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<litepal>
+    <dbname value="Star" ></dbname>
+    <version value="1"></version>
+
+    <list>
+        <mapping class="com.example.star.bean.gson.Day"/>
+        <mapping class="com.example.star.bean.gson.Tomorrow"/>
+        <mapping class="com.example.star.bean.gson.Week"/>
+        <mapping class="com.example.star.bean.gson.Month"/>
+        <mapping class="com.example.star.bean.gson.Year"/>
+    </list>
+
+</litepal>

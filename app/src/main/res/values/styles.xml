@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="titleTextColor">@android:color/white</item>
+    </style>
+
+    <style name="fiveRatingBar"
+        parent="@android:style/Widget.RatingBar">
+           <item name="android:progressDrawable">@drawable/five_rating_bar</item>
+           <item name="android:minHeight">20dp</item>
+           <item name="android:maxHeight">20dp</item>
+    </style>
+
+    <style name="dialog" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">false</item>
+    </style>
+
+</resources>
